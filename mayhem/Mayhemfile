@@ -1,8 +1,6 @@
 project: emoji
 target: fuzz-emoji
 
-image: ghcr.io/matl4c/fuzz-emoji:latest
-
 cmds:
   - cmd: /src/mayhem/fuzz-emoji.py
     libfuzzer: true
